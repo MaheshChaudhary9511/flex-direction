@@ -1,0 +1,31 @@
+.container{
+    background-color: whitesmoke;
+    border:5px black solid;
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+.container > div {
+    flex-basis: 80px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.violet{
+    background-color: violet;
+}
+.orange{
+    background-color: orange;
+}
+p{
+    text-align: center;
+}
